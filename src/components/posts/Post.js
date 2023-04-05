@@ -16,11 +16,13 @@ const Post = () => {
   }, []);
 
   return (
-    <div className="post-component">
-      {posts.map((post) => (
-        <PostComponent {...post} />
-      ))}
-    </div>
+    <>
+      <div className="post-component">
+        {posts.map((post) => (
+          <PostComponent {...post} key={Math.random()} />
+        ))}
+      </div>
+    </>
   );
 };
 

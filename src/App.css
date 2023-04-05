@@ -6,7 +6,7 @@
   align-items: center;
 }
 .posts {
-  height: 380px;
+  height: 480px;
   border: 1px solid grey;
   width: 400px;
   border-radius: 10px;
@@ -37,4 +37,19 @@
   margin-top: 40px;
   font-weight: 900;
   justify-content: center;
+}
+.post-tags {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+.tags {
+  gap: 10px;
+  margin: 10px;
+  font-weight: 600;
+}
+.post-detail {
+  text-align: end;
+  flex-direction: end;
+  display: flex;
 }
