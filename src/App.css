@@ -53,3 +53,13 @@
   flex-direction: end;
   display: flex;
 }
+.posty {
+  height: 600px;
+  width: 800px;
+  margin: 20px;
+  border: 1px solid #554cc0;
+}
+.post-details {
+  display: flex;
+  justify-content: center;
+}

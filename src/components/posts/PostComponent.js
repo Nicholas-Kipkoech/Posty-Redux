@@ -2,9 +2,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 
 const PostComponent = (props) => {
-  const { title, body, tags, reactions } = props;
-
-  const { id } = useParams();
+  const { id, title, body, tags, reactions } = props;
 
   return (
     <div className="posts">
